@@ -2,6 +2,8 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import  Nav from "./header"
 import Footer from "./footer"
+import "../style/mystyles.scss"
+
 
 
 export default function Layout({children}){

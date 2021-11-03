@@ -1,13 +1,18 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { Helmet } from "react-helmet"
+import Layout from "../components/main"
+
+import "../style/mystyles.scss"
+
 
 
 export default function IndexPage({data}){
         const {edges:posts} = data.allMarkdownRemark
 
         return (
-            <div className="blog-posts">
+          <Layout>
+            <div className="blog-posts container">
               {posts
                 .filter(post => post.node.frontmatter.title.length > 0)
                 .map(({ node: post }) => {
@@ -22,6 +27,7 @@ export default function IndexPage({data}){
                   )
                 })}
             </div>
+            </Layout>
           )
     
     
