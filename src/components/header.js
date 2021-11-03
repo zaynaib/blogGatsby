@@ -1,9 +1,9 @@
 import React from "react"
 import "../style/mystyles.scss"
-import {container} from "../style/layout.module.css"
 
 const Nav =() => {
     return(
+        <div class="container">
         <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
@@ -45,6 +45,7 @@ const Nav =() => {
    
         </div>
       </nav>
+      </div>
     )   
 }
 
