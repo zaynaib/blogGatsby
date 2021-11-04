@@ -1,16 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../style/mystyles.scss"
+import {headerLine, headerContainer} from "../style/layout.module.css"
+
 
 const Nav =() => {
     return(
-        <div class="container">
+        <div className={headerContainer}>
         <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
 
-        <Link className="navbar-item" to="/">
-             <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></img>
-             <h2 is-size-1>Hi I'm Ola</h2>
+        <Link to="/">
+             <p className={headerLine}>Hi I'm Ola</p>
         </Link>
 
          
@@ -49,6 +50,7 @@ const Nav =() => {
    
         </div>
       </nav>
+
       </div>
     )   
 }

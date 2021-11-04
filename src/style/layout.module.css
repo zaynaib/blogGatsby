@@ -1,6 +1,31 @@
 .bodyContainer{
-    margin:3rem auto;
+    margin:0 auto;
     max-width: 650px;
     padding: 0 1rem;  
 
+}
+
+.headerContainer{
+    max-width: 650px; 
+    margin:0 auto;
+    margin-top: 3rem;
+
+}
+
+.headerLine{
+    font-size: 2rem;
+    color:black;
+}
+.footerLinksPos{
+    margin: 0.5em;
+
+}
+
+.powerpuffImg{
+    border-radius:100%;
+}
+
+.coolCatsImg{
+    width: 50%;
+    margin: 0 auto;
 }

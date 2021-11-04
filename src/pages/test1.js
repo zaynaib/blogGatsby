@@ -2,7 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/main"
 import "../style/mystyles.scss"
-import {bodyContainer} from "../style/layout.module.css"
+// import {bodyContainer} from "../style/layout.module.css"
+import {bodyContainer,
+  footerLinksPos,
+  powerpuffImg,
+  coolCatsImg
+
+} from "../style/layout.module.css"
+
+import PowerPuff from "../images/powerpuff.png"
+
 
 
 export default function Home() {
@@ -14,11 +23,8 @@ export default function Home() {
            <div class ="columns">
                 <div class="column ">
 
-                    <p> 
+                <img className={powerpuffImg} src={PowerPuff}/>
 
-                    Pop punk homie cory matthews fresh parting your hair down the middle inflatable furniture. Central perk umbro shorts clueless nerf guns fila. Did I do that keepin’ it real highlights netscape navigator nylon windbreaker, vanilla ice tom cruise hoop earrings leggings life is like a box of chocolates. Millenials when you’re lost out there and you’re all alone pizza bagels gotta have my pops crimped hair jagged little pill. Blur I don’t want no scrubs ac slater dallas cowboys cut-off jean shorts.
-
-                    </p>
                 
                 </div>
 
@@ -26,7 +32,7 @@ export default function Home() {
                 <div class="column is-two-thirds">
                 <p>
                 My name is Zaynaib Giwa but everyone calls me Ola.
-                I am a Data Analyst who also enjoys learning about web programming.
+                I am a <b>Data Analyst</b> who also enjoys learning about <b>web programming</b>.
                 I currently reside in Chicago and work as a Teaching Assistant for a Data Science Bootcamp.
               </p>
       
@@ -68,7 +74,7 @@ export default function Home() {
                 <li>Co-organizer of <a href="https://www.rladieschicago.org/">R-Ladies Chicago</a> - An organization that promotes gender diversity in the R community</li>
                 <li>Teaching Assistant for <a href="https://hacking4justice.org/">Hacking 4 Justice</a> - An organization that provides free R training to anyone.</li>
                 <li> <Link to="/blog/">Blogging</Link> about things that I learn.</li> 
-                <li>Hanging out with CoolCats <br></br><img id="cool-cats" src="https://i.pinimg.com/736x/1c/6a/a4/1c6aa47e0e518b552e7be7ea08f761ed.jpg"/> 
+                <li>Hanging out with CoolCats <br></br><img className={coolCatsImg} src="https://i.pinimg.com/736x/1c/6a/a4/1c6aa47e0e518b552e7be7ea08f761ed.jpg"/> 
                  <br></br> 
                 A meetup group that helps people transition from coding bootcamp into their tech careers </li>
               </ul>        
