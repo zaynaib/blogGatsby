@@ -7,61 +7,59 @@ import {headerLine, headerContainer} from "../style/layout.module.css"
 const Nav =() => {
   const [isActive, setisActive] = React.useState(false);
 
-
     return(
         <div className={headerContainer}>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
+        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <div className="navbar-brand">
 
-        
-
-          <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></img>
-          </a>
+        <Link to="/">
+             <p className={headerLine}>Hi I'm Ola</p>
+        </Link>
       
-          <a
-          onClick={() => {
-            setisActive(!isActive);
-          }}
-          role="button"
-          className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
+        <a
+        onClick={() => {
+          setisActive(!isActive);
+        }}
+        role="button"
+        className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navbarBasicExample"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
         </div>
       
         <div id="navbarBasicExample"  className={`navbar-menu ${isActive ? "is-active" : ""}`}
-        
-        >
-          <div class="navbar-start">
-            <a class="navbar-item">
-              Home
-            </a>
+        >          
+        <div className="navbar-end">
+
       
-            <a class="navbar-item">
-              Documentation
-            </a>
-      
-      
+
+          <Link className="navbar-item" to="/">
+            Home
+          </Link>
+
+          <Link className="navbar-item" to="/talks/">
+              Talks
+          </Link>
+
+          <Link className="navbar-item" to="/blog/">
+              Blog
+          </Link>
+
+          <Link className= "navbar-item" to="/portfolio/">
+            Portfolio
+          </Link>
+          
+          <Link className= "navbar-item" to="/dataviz/">
+              Data Viz
+          </Link>
+            
           </div>
-      
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a class="button is-light">
-                  Log in
-                </a>
-              </div>
-            </div>
-          </div>
+   
         </div>
       </nav>
 
