@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import "../style/mystyles.scss"
 
 const Nav =() => {
@@ -8,6 +9,7 @@ const Nav =() => {
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
             <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></img>
+             <h2 is-size-1>Hi I'm Ola</h2>
           </a>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">

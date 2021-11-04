@@ -2,15 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/main"
 import "../style/mystyles.scss"
-import LayoutStyles from "../style/layout.module.css"
+import {bodyContainer} from "../style/layout.module.css"
 
 
 export default function Home() {
     return(
         <Layout>
         <body>
-        <section class="section">
-          <div class="container">
+        <section class="section is-three-quarters ">
+          <div className={bodyContainer}>
            <div class ="columns">
                 <div class="column ">
 
