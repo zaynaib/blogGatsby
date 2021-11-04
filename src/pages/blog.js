@@ -12,16 +12,16 @@ export default function IndexPage({data}){
 
         return (
           <Layout>
-            <div className="blog-posts container">
+            <div className="blog-posts">
               {posts
                 .filter(post => post.node.frontmatter.title.length > 0)
                 .map(({ node: post }) => {
                   return (
-                    <div className="blog-post-preview" key={post.id}>
-                      <h1>
+                    <div className="blog-post-preview mb-3" key={post.id}>
+                      <h1 class="is-size-4">
                         <Link to={`/blog${post.frontmatter.slug}`}>{post.frontmatter.title}</Link>
                       </h1>
-                      <h2>{post.frontmatter.date}</h2>
+                      <h2 class="is-size-5">{post.frontmatter.date}</h2>
                       <p>{post.excerpt}</p>
                     </div>
                   )

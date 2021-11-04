@@ -3,6 +3,12 @@ import { Helmet } from "react-helmet"
 import  Nav from "./header"
 import Footer from "./footer"
 import "../style/mystyles.scss"
+import {bodyContainer,
+    footerLinksPos,
+    powerpuffImg,
+    coolCatsImg
+  
+  } from "../style/layout.module.css"
 
 
 
@@ -15,7 +21,8 @@ export default function Layout({children}){
             </Helmet>
             <Nav></Nav>
 
-            <div className="content">
+            <div className={bodyContainer}>
+
                 {children}
             </div>
 

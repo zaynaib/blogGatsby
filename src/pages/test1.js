@@ -16,15 +16,12 @@ import PowerPuff from "../images/powerpuff.png"
 export default function Home() {
     return(
         <Layout>
-        <body>
         <section class="section is-three-quarters ">
-          <div className={bodyContainer}>
            <div class ="columns">
                 <div class="column ">
 
                 <img className={powerpuffImg} src={PowerPuff}/>
 
-                
                 </div>
 
 
@@ -82,20 +79,11 @@ export default function Home() {
         
             
                 </div>
-
-
-
-        
-
-
-
-
                
            </div>
         
-          </div>
+          
         </section>
-        </body>
         </Layout>
     )
   }
