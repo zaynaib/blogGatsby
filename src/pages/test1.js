@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/main"
 import "../style/mystyles.scss"
-// import {bodyContainer} from "../style/layout.module.css"
 import {bodyContainer,
   footerLinksPos,
   powerpuffImg,

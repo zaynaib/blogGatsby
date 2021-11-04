@@ -26,6 +26,8 @@ const Nav =() => {
         <div id="navbarBasicExample" class="navbar-menu">
           <div className="navbar-end">
 
+      
+
           <Link className="navbar-item" to="/">
             Home
           </Link>

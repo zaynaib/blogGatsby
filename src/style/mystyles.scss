@@ -2,7 +2,9 @@
 
 $title-color: #ff0000;
 $navbar-item-color:#1ca086;
-$navbar-item-active-color:orange;
+$navbar-item-hover-color:rgb(81, 255, 0);
+$navbar-item-active-color: orange;
+$link: #1ca086;
 
 @import "~bulma/bulma.sass"
 

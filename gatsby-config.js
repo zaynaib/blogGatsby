@@ -7,13 +7,13 @@
 module.exports = {
   // previous setup
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Code With Ola`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Ola Giwa`,
+      summary: `who lives and works in Chicago building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A site to document my journey into data science`,
+    siteUrl: `https://codewithola.com`,
     social: {
       twitter: `kylemathews`,
     },
