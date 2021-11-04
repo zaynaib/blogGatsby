@@ -1,3 +1,9 @@
+/*
+
+Main Layout CSS
+
+*/
+
 .bodyContainer{
     margin:0 auto;
     max-width: 650px;
@@ -5,20 +11,40 @@
 
 }
 
+/*
+
+ Header Component CSS
+
+*/
+
 .headerContainer{
     max-width: 650px; 
     margin:0 auto;
     margin-top: 3rem;
+    margin-bottom:1.5rem;
 }
 
 .headerLine{
     font-size: 2rem;
     color:black;
 }
+
+/*
+
+Footer Componet CSS
+
+*/
 .footerLinksPos{
     margin: 0.5em;
 
 }
+
+
+/*
+
+ Index Page CSS
+
+*/
 
 
 .powerpuffImg{
