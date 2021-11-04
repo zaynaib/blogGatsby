@@ -21,20 +21,21 @@ export default function Viz() {
 
             </div>
             
-      </div>
+        </div>
 
       <div class="columns">
-      <div class="column">
-      <Vizlayout img ={Basketball} link="https://public.tableau.com/app/profile/zaynaib/viz/Basketball-injuries/Sheet1" title="Baketball Injuries" desc="Tableau Visualization of Injuries of Basketball Players in the NBA"> </Vizlayout>
 
-      </div>
+        <div class="column">
+        <Vizlayout img ={Basketball} link="https://public.tableau.com/app/profile/zaynaib/viz/Basketball-injuries/Sheet1" title="Baketball Injuries" desc="Tableau Visualization of Injuries of Basketball Players in the NBA"> </Vizlayout>
 
-      <div class="column">
-      <Vizlayout img ={Basketball} link="https://public.tableau.com/app/profile/zaynaib/viz/Basketball-injuries/Sheet1" title="Baketball Injuries" desc="Tableau Visualization of Injuries of Basketball Players in the NBA"> </Vizlayout>
+        </div>
 
-      </div>
+        <div class="column">
+        <Vizlayout img ={Basketball} link="https://public.tableau.com/app/profile/zaynaib/viz/Basketball-injuries/Sheet1" title="Baketball Injuries" desc="Tableau Visualization of Injuries of Basketball Players in the NBA"> </Vizlayout>
+
+        </div>
       
-</div>
+      </div>
   
       
           
