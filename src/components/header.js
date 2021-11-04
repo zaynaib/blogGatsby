@@ -7,10 +7,13 @@ const Nav =() => {
         <div class="container">
         <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></img>
+
+        <Link className="navbar-item" to="/">
+             <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></img>
              <h2 is-size-1>Hi I'm Ola</h2>
-          </a>
+        </Link>
+
+         
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
@@ -21,27 +24,26 @@ const Nav =() => {
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div className="navbar-end">
-            <a className="navbar-item">
-              Home
-            </a>
-      
-            <a className="navbar-item">
+
+          <Link className="navbar-item" to="/">
+            Home
+          </Link>
+
+          <Link className="navbar-item" to="/talks/">
               Talks
-            </a>
+          </Link>
 
-            <a className="navbar-item">
+          <Link className="navbar-item" to="/blog/">
               Blog
-            </a>
+          </Link>
 
-            <a className="navbar-item">
-              Portfolio
-            </a>
-
-            <a className="navbar-item">
+          <Link className= "navbar-item" to="/portfolio/">
+            Portfolio
+          </Link>
+          
+          <Link className= "navbar-item" to="/dataviz/">
               Data Viz
-            </a>
-      
-           
+          </Link>
             
           </div>
    
