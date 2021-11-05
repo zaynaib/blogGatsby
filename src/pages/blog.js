@@ -12,6 +12,9 @@ export default function IndexPage({data}){
 
         return (
           <Layout>
+
+          <h1 className="title is-2">Blog</h1>
+
             <div className="blog-posts">
               {posts
                 .filter(post => post.node.frontmatter.title.length > 0)

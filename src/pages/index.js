@@ -2,10 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/main"
 import "../style/mystyles.scss"
-import {bodyContainer,
-  footerLinksPos,
+import {
+  
   powerpuffImg,
-  coolCatsImg
+  coolCatsImg,
+  
 
 } from "../style/layout.module.css"
 
@@ -16,6 +17,9 @@ import PowerPuff from "../images/powerpuff.png"
 export default function Home() {
     return(
         <Layout>
+
+        <h1 className={"title is-3 has-text-centered"}>Data Analyst/Full-Stack Enthusiast</h1>
+
         <section class="section is-three-quarters ">
            <div class ="columns">
                 <div class="column ">

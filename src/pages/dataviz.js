@@ -9,7 +9,8 @@ export default function Viz() {
     return (
         <Layout>
             
-  
+        <h1 className="title is-2">Data Visualizations</h1>
+
         <div class="columns">
             <div class="column">
             <Vizlayout img ={Basketball} link="https://public.tableau.com/app/profile/zaynaib/viz/Basketball-injuries/Sheet1" title="Baketball Injuries" desc="Tableau Visualization of Injuries of Basketball Players in the NBA"> </Vizlayout>

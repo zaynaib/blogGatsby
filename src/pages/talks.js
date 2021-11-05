@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <Layout>
 
+      <h1 className="title is-2">Talks</h1>
       <Talk month="April" year= "2021" link="https://www.meetup.com/Cleveland-UseR-Group/events/276353088/" name="R-Users Cleveland" description= "D3 for R Users"/>    
       <Talk month="March" year= "2021" link="https://www.coursera.org/projects/d3-basics" name="Coursera" description= "D3JS Basics"/>      
       <Talk month="March" year= "2021" link="https://www.coursera.org/projects/creating-personal-site-gatsby" name="Coursera" description= "Creating a Personal Site with Gatsby"/>        

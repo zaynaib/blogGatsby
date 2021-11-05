@@ -26,7 +26,7 @@ Main Layout CSS
 
 .headerLine{
     font-size: 2rem;
-    color:black;
+    color:orange;
 }
 
 /*
@@ -46,6 +46,9 @@ Footer Componet CSS
 
 */
 
+.tagline{
+    text-align: center;
+}
 
 .powerpuffImg{
     border-radius:100%;

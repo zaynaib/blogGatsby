@@ -6,6 +6,9 @@ import "../style/mystyles.scss"
 export default function Portfolio() {
   return (
     <Layout>
+
+        <h1 className="title is-2">Web Development Portfolio</h1>
+
         <table className="table is-striped">
         <thead>
           <tr>
