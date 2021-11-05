@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/main"
 import Row from "../components/tablerow"
+import Layout from "../components/main"
 import "../style/mystyles.scss"
 
 export default function Portfolio() {
