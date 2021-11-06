@@ -5,5 +5,13 @@ $navbar-item-hover-color:orange;
 $navbar-item-active-color: orange;
 $link: #1ca086;
 
+h5 {
+    @extend .title;
+  }
+
+  h5 {
+    @extend.is-4;
+  }
+
 @import "~bulma/bulma.sass"
 

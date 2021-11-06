@@ -4,7 +4,7 @@ date: "2021-11-06"
 title: "How to get started in R"
 ---
 
-#### Statistics is the science of learning from data
+##### Statistics is the science of learning from data
 
 This is the foundation of the field. Data is numbers with a context and we need to understand the context if we are to make sense of the numbers. Without understanding the data there is no analysis. Whenever I look at a data set I ask the 5 Ws and 1 H from storytelling.
 
@@ -30,7 +30,7 @@ How many columns does this dataset contain?
 
 Next, I do some summary statistics on the columns I am interested in. Then move on to study the relationships between columns.
 
-#### If you are going to use R you have to learn the philosophy of Tidy Data.
+##### If you are going to use R you have to learn the philosophy of Tidy Data.
 
 The term Tidy Data is coined by statistician Hadley Wickham. He is best known for creating the tidyverse, a collection of R packages such as ggplot2 and dyplr. He is kind of like the Stan Lee of the R world. If the Loki Series have taught me anything with multiversal universes there are rules.
 
@@ -62,7 +62,7 @@ This dataset breaks the second rule of the tidyverse, each variable has its own 
 
 Year and cost variables are represented in their own columns. There are many different types of messy data and recipes to turn them into tidy data. The examples are in the Tidy Data paper referenced. It’s a bit old since its before the creating of the tidyverse was created but the theories still hold true.
 
-#### Practice by doing it
+##### Practice by doing it
 
 The only way to become great at any skill is to practice.
 
@@ -70,7 +70,7 @@ The only way to become great at any skill is to practice.
 
 Doing online classes and watching code alongs on Youtube is great to get your toe in the water. But this can lead to a sense of false mastery. The best way to practice is to apply your skills to problems you have never seen before. I am a huge advocate for tidy Tuesdays. When I try to apply what I learn from class to a new situation I get immediate feedback if I actually mastered the skill. Things that I thought would take me 30 minutes to do have taken me hours to figure out. Getting an immediate assessment of my skills has made me a better learner.
 
-#### Steal Like an Artist — Watch other people solve problems
+##### Steal Like an Artist — Watch other people solve problems
 
 The R community is open and collaborative. That’s why this community has a special place in my heart. So many people put up their code online for everyone to see. There are so many tricks and tips that I did not know existed if I did not go through someone’s github repo or watched someone’s Youtube channel and studied their code. Steal from other people’s code, revamp their code to fit your needs, and always give credit to the O G.s
 
@@ -83,3 +83,5 @@ The R community is open and collaborative. That’s why this community has a spe
 [David Robinson](https://www.youtube.com/user/safe4democracy)
 
 **R Resources to Learn**
+
+[R Community Public Library](https://rviews.rstudio.com/2021/11/04/bookdown-org/)

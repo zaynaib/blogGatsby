@@ -2,6 +2,9 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import "../style/mystyles.scss"
 import Layout from "../components/main"
+import {
+    postContent
+  } from "../style/layout.module.css"
 
 
 export default function Post({ data }) {
@@ -12,9 +15,9 @@ export default function Post({ data }) {
         <Layout>
         <body>
         <div className="post">
-            <h1 className="title is-2">{frontmatter.title}</h1>
+            <h1 className="title is-3">{frontmatter.title}</h1>
             <h2 className="title is-4">{frontmatter.date}</h2>
-            <div className="post-content" dangerouslySetInnerHTML={{ __html: html }} />
+            <div className="postContent" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
         </body>
         </Layout>

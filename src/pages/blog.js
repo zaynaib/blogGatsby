@@ -25,7 +25,7 @@ export default function IndexPage({data}){
                         <Link to={`/blog${post.frontmatter.slug}`}>{post.frontmatter.title}</Link>
                       </h1>
                       <h2 class="is-size-5">{post.frontmatter.date}</h2>
-                      <p>{post.excerpt}</p>
+                      <p className="my-2">{post.excerpt}</p>
                     </div>
                   )
                 })}

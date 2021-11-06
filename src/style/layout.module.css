@@ -56,3 +56,11 @@ Footer Componet CSS
     width: 50%;
     margin: 0 auto;
 }
+
+
+/* blog post page CSS */
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
