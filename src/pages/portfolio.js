@@ -1,5 +1,5 @@
 import React from "react"
-import Row from "../components/tablerow"
+import Row from "../components/tableRow"
 import Layout from "../components/main"
 import "../style/mystyles.scss"
 
