@@ -2,6 +2,7 @@
 slug: "/how-to-get-started-in-r"
 date: "2021-11-06"
 title: "How to get started in R"
+tag: R
 ---
 
 ##### Statistics is the science of learning from data
